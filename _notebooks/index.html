@@ -3,17 +3,17 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="shortcut icon" type="image/x-icon" href="/assets/icons/favicon.ico"><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>About Me | viniedodo fastpages</title>
+<title>Auto-convert Jupyter Notebooks To Posts | viniedodo fastpages</title>
 <meta name="generator" content="Jekyll v3.8.5" />
-<meta property="og:title" content="About Me" />
+<meta property="og:title" content="Auto-convert Jupyter Notebooks To Posts" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="An easy to use blogging platform with support for Jupyter Notebooks." />
 <meta property="og:description" content="An easy to use blogging platform with support for Jupyter Notebooks." />
-<link rel="canonical" href="https://viniedodo.github.io//about/" />
-<meta property="og:url" content="https://viniedodo.github.io//about/" />
+<link rel="canonical" href="https://viniedodo.github.io//_notebooks/" />
+<meta property="og:url" content="https://viniedodo.github.io//_notebooks/" />
 <meta property="og:site_name" content="viniedodo fastpages" />
 <script type="application/ld+json">
-{"description":"An easy to use blogging platform with support for Jupyter Notebooks.","@type":"WebSite","url":"https://viniedodo.github.io//about/","name":"viniedodo fastpages","headline":"About Me","@context":"https://schema.org"}</script>
+{"description":"An easy to use blogging platform with support for Jupyter Notebooks.","@type":"WebPage","url":"https://viniedodo.github.io//_notebooks/","headline":"Auto-convert Jupyter Notebooks To Posts","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   <link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet" />
@@ -72,21 +72,21 @@
         <article class="post">
 
   <header class="post-header">
-    <h1 class="post-title">About Me</h1>
+    <h1 class="post-title">Auto-convert Jupyter Notebooks To Posts</h1>
   </header>
 
   <div class="post-content">
-    <p>This is where you put the contents of your <em>About</em> page. Like all your pages, it’s in <a href="https://guides.github.com/features/mastering-markdown/">Markdown</a> format.</p>
+    <p><a href="https://github.com/fastai/fastpages"><code class="language-plaintext highlighter-rouge">fastpages</code></a> will automatically convert <a href="https://jupyter.org/">Jupyter</a> Notebooks saved into this directory as blog posts!</p>
 
-<p>This website is powered by <strong><a href="https://github.com/fastai/fastpages">fastpages</a></strong> <sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup>.</p>
+<p>You must save your notebook with the naming convention <code class="language-plaintext highlighter-rouge">YYYY-MM-DD-*.ipynb</code>.  Examples of valid filenames are:</p>
 
-<div class="footnotes">
-  <ol>
-    <li id="fn:1">
-      <p>a blogging platform that natively supports Jupyter notebooks in addition to other formats. <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
-    </li>
-  </ol>
-</div>
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>2020-01-28-My-First-Post.ipynb
+2012-09-12-how-to-write-a-blog.ipynb
+</code></pre></div></div>
+
+<p>If you fail to name your file correctly, <code class="language-plaintext highlighter-rouge">fastpages</code> will automatically attempt to fix the problem by prepending the last modified date of your notebook. However, it is recommended that you name your files properly yourself for more transparency.</p>
+
+<p>See <a href="https://github.com/fastai/fastpages#writing-blog-posts-with-jupyter">Writing Blog Posts With Jupyter</a> for more details.</p>
 
   </div>
 
