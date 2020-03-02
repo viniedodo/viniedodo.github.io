@@ -81,16 +81,7 @@ key: value
 ```
 
 
-## Tables
 
-| Column 1 | Column 2 |
-|-|-|
-| A thing | Another thing |
-
-
-## Tweetcards
-
-{%  https://twitter.com/jakevdp/status/1204765621767901185?s=20 %}
 
 
 ## Footnotes
